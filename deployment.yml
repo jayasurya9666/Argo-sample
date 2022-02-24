@@ -17,5 +17,5 @@ spec:
         image: sreeharshav/rollingupdate:v5
         resources:
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
 
