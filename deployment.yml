@@ -14,8 +14,9 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: sreeharshav/rollingupdate:v5
+        image: jayasurya/rollingupdate:v1
         resources:
         ports:
         - containerPort: 8000
 
+#sreeharshav/rollingupdate:v5
