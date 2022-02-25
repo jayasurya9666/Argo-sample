@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: jayasurya/rollingupdate:v1
+        image: nginx:latest 
         resources:
         ports:
         - containerPort: 8000
 
 #sreeharshav/rollingupdate:v5
+#jayasurya/rollingupdate:v1
